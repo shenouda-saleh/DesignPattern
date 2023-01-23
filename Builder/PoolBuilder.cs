@@ -8,6 +8,9 @@ namespace ITIDesignPattern.Builder
 {
     internal class PoolBuilder 
     {
-        string pool = "pool Added";
-    }
+		public PoolBuilder()
+		{
+            Console.WriteLine("Pool Added");
+        }   
+	}
 }

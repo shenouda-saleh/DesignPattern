@@ -8,6 +8,9 @@ namespace ITIDesignPattern.Builder
 {
     internal class GardenBuilder 
     {
-        string garden = "Garden Added";
+        public GardenBuilder()
+        {
+            Console.WriteLine("Garden Added");
+        }
     }
 }

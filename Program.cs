@@ -13,7 +13,7 @@ var networkCard = NetworkCard.Create();
 Console.WriteLine(networkCard.name);
 networkCard.name += "Tone";
 var networkCard1 = NetworkCard.Create();
-Console.WriteLine(networkCard1.name);
+Console.WriteLine(networkCard1.name); 
 #endregion
 
 #region Factory Method Design Pattern

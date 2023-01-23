@@ -14,13 +14,11 @@ namespace ITIDesignPattern.Builder
 
         public void AddGarden()
         {
-            Console.WriteLine("Garden Added");
             garden = new GardenBuilder();
         }
 
         public void AddPool()
         {
-            Console.WriteLine("Pool Added");
             pool = new PoolBuilder();
         }
 
